@@ -1,0 +1,9 @@
+{
+  "/api/*": {
+    "target": "https://servername.devstuff.org:10443",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": { "^/api": "" }
+  }
+}

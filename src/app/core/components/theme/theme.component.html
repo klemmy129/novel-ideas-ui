@@ -1,0 +1,12 @@
+<div class="navbar-item">
+  <div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+      <span class="icon"><em class="fa-solid fa-palette"></em></span>
+    </a>
+    <div class="navbar-dropdown">
+      <a class="navbar-item" *ngFor="let p of themes" (click)="changeTheme(p.theme)">
+        {{p.title}}
+      </a>
+    </div>
+  </div>
+</div>
