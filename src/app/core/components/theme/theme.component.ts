@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AppState } from "../../../app.global";
 
 @Component({
@@ -6,7 +6,7 @@ import { AppState } from "../../../app.global";
   templateUrl: './theme.component.html',
   styleUrls: ['./theme.component.scss']
 })
-export class ThemeComponent implements OnInit {
+export class ThemeComponent {
 
   themes: Array<{ title: string, theme: string }>;
 
@@ -19,9 +19,6 @@ export class ThemeComponent implements OnInit {
       {title: 'Slate', theme: 'slate'},
       {title: 'Solar', theme: 'solar'},
     ];
-  }
-
-  ngOnInit(): void {
     this.changeTheme('flatly');
   }
 

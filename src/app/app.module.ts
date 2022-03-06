@@ -14,6 +14,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { BookService } from "./shared/services/book.service";
 import { SearchComponent } from './core/components/search/search.component';
 import { AppConfig } from "./app.config";
+import { AddGenderComponent } from './features/components/add-gender/add-gender.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AppConfig } from "./app.config";
     PageNotFoundComponent,
     MainPageComponent,
     SettingsPageComponent,
-    SearchComponent
+    SearchComponent,
+    AddGenderComponent
   ],
   imports: [
     BrowserModule,

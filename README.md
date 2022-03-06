@@ -8,7 +8,7 @@ This is VERY early days of this app.
 This is also a Angular 13 demonstrator and a leaning tool for me.
 
 **Technology Used:**
-- [Angular](https://angular.io/) version 13.2.4.
+- [Angular](https://angular.io/) version 13.2.x.
 - Bulma
 - NodeJS 16
 
@@ -38,11 +38,12 @@ What is currently in:
 * Themes - but still need work.
 * First connection to the backend service to get all books.
 * Getting a "page" of data, but this will change.
+* Some unit tests
+
+### Environment
+- Created an interface for the environments.
+- Then read the environments into an injectable class that implements that interface.
 
 ### Structure - WIP
-
-### Environment - WIP
-
-
 
 
