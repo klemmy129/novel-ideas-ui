@@ -1,0 +1,31 @@
+<div class="{{global.state['theme']}}">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://rh1.home.au:4200/">
+        <img src="../assets/images/novel-idea_48x48.png" width="48" height="48">
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" (click)="home()">
+          Home
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <app-search></app-search>
+        <app-site-setup></app-site-setup>
+        <app-theme></app-theme>
+      </div>
+    </div>
+  </nav>
+  <div class="section">
+  <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>
