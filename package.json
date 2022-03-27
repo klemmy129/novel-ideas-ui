@@ -22,6 +22,7 @@
     "@fortawesome/fontawesome-free": "^6.0.0",
     "bulma": "^0.9.3",
     "bulmaswatch": "^0.8.1",
+    "moment": "^2.29.1",
     "ngx-pagination": "^5.1.1",
     "novel-ideas-api": "file:../npm/novel-ideas-api-0.0.3.tgz",
     "rxjs": "~7.5.0",
@@ -48,6 +49,6 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.5.2"
+    "typescript": "~4.5.5"
   }
 }

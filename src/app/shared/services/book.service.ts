@@ -11,14 +11,14 @@ import { AppConfig } from "../../app.config";
 export class BookService {
   private appConfig: AppConfig;
 
-  constructor(private http: HttpClient, appConfig: AppConfig) {
-    this.appConfig = appConfig;
+  constructor(private http: HttpClient, appConfigE: AppConfig) {
+    this.appConfig = appConfigE;
   }
 
   getBooks(): Observable<Page<BookDto>> {
-    return this.http.get<Page<BookDto>>('${this.appConfig.novelIdeasUrl}/book/', { observe: 'body', responseType: 'json' });
+    return this.http.get<Page<BookDto>>(`${this.appConfig.novelIdeasUrl}/book/`, { observe: 'body', responseType: 'json' });
   }
   getBook(id: number): Observable<BookDto> {
-    return this.http.get<BookDto>('${this.appConfig.novelIdeasUrl}/book/${id}', { observe: 'body', responseType: 'json' });
+    return this.http.get<BookDto>(`${this.appConfig.novelIdeasUrl}/book/${id}`, { observe: 'body', responseType: 'json' });
   }
 }
