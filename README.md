@@ -1,6 +1,14 @@
 # Novel-Ideas UI
 **DRAFT - In work**
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/klemmy129/novel-ideas-ui)
+![GitHub top language](https://img.shields.io/github/languages/top/klemmy129/novel-ideas-ui)
+![GitHub](https://img.shields.io/github/license/klemmy129/novel-ideas-ui)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/klemmy129/novel-ideas-ui)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/klemmy129/novel-ideas-ui/main)
+![GitHub issues](https://img.shields.io/github/issues/klemmy129/novel-ideas-ui)
+
+
 This is VERY early days of this app.
 
 **Description:** This application is the frontend for novel-ideas Rest backend. That managing data and information about a novel or script you want to write
@@ -8,7 +16,8 @@ This is VERY early days of this app.
 This is also a Angular 13 demonstrator and a leaning tool for me.
 
 **Technology Used:**
-- [Angular](https://angular.io/) version 13.2.x.
+- [Angular](https://angular.io/) version 13.3.x.
+- Typescript 4.6.x
 - Bulma
 - NodeJS 16
 
