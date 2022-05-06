@@ -22,14 +22,9 @@ This is also a Angular 13 demonstrator and a leaning tool for me.
 - NodeJS 16
 
 ## Building
-Note: You need to install a local created NPM package from [novel-ideas](https://github.com/klemmy129/novel-ideas) it is `novel-ideas-api-n.n.n.tgz`. 
 
-This has the DTO models you need for the frontend.
-
-* You can find it in the compiled area in `novel-ideas/novel-ideas-api/target/typescript-generator/`. There you will find 2x files a typescript file and package.json. 
-* You need to run `npm pack` this creates the `novel-ideas-api-n.n.n.tgz` file.
-* Move the `.tgz` file different folder eg create a `npm` folder at the same level as `novel-ideas` and `novel-ideas-ui`
-* Then from the root of `novel-ideas-ui` run  eg `npm install ../npm/novel-ideas-api-0.0.3.tgz -s`
+* Run `npm install` all the packages
+* Run `ng build` the output is in `dist/` 
 
 ## Startup
 You will need to compile and run `novel-ideas` rest backend.
