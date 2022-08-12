@@ -13,10 +13,10 @@ This is VERY early days of this app.
 
 **Description:** This application is the frontend for novel-ideas Rest backend. That managing data and information about a novel or script you want to write
 
-This is also a Angular 13 demonstrator and a leaning tool for me.
+This is also a Angular 14 demonstrator and a leaning tool for me.
 
 **Technology Used:**
-- [Angular](https://angular.io/) version 13.3.x.
+- [Angular](https://angular.io/) version 14.1.x.
 - Typescript 4.6.x
 - Bulma
 - NodeJS 16
