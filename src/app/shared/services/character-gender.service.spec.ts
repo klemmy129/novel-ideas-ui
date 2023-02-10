@@ -29,7 +29,7 @@ describe('CharacterGenderService', () => {
   });
 
   it('can test HttpClient.getGender1', () => {
-    const testData: CharacterGenderDto = {id: 1, gender: 'aaa', deleted: false};
+    const testData: CharacterGenderDto = {id: 1, gender: 'aaa', isDeleted: false};
     const testUrl: string = '/gender/1';
 
     // Make an HTTP GET request
@@ -56,7 +56,7 @@ describe('CharacterGenderService', () => {
   });
 
   it('can test HttpClient.postGender', () => {
-    const testData: CharacterGenderDto = {id: 1, gender: 'aaa', deleted: false};
+    const testData: CharacterGenderDto = {id: 1, gender: 'aaa', isDeleted: false};
     const testUrl: string = '/gender';
 
     // Make an HTTP POST request
