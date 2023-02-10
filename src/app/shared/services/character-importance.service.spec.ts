@@ -30,7 +30,7 @@ describe('CharacterImportanceService', () => {
   });
 
   it('can test HttpClient.getCharacterImportance1', () => {
-    const testData: CharacterImportanceDto = {id: 1, importance: 'aaa', deleted: false};
+    const testData: CharacterImportanceDto = {id: 1, importance: 'aaa', isDeleted: false};
     const testUrl: string = '/character-importance/1';
 
     // Make an HTTP GET request
