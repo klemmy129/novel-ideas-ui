@@ -19,4 +19,14 @@
     </tr>
     </tbody>
   </table>
+  <br/>
+  <div id="messages">
+    <h2>Received messages</h2>
+    <ol>
+      <li class="message" *ngFor="let message of receivedMessages">
+        {{message}}
+      </li>
+    </ol>
+  </div>
+
 </div>
