@@ -13,18 +13,20 @@ This is VERY early days of this app.
 
 **Description:** This application is the frontend for novel-ideas Rest backend. That managing data and information about a novel or script you want to write
 
-This is also a Angular 15 demonstrator and a leaning tool for me.
+This is also an Angular 16 demonstrator and a leaning tool for me.
 
 **Technology Used:**
-- [Angular](https://angular.io/) version 15.1.x.
-- Typescript 4.9.x
+- [Angular](https://angular.io/) version 16.2.x.
+- Typescript 5.1.x
 - Bulma
-- NodeJS 16
+- NodeJS 18
 
 ## Building
 
 * Run `npm install` all the packages
-* Run `ng build` the output is in `dist/` 
+* Run `ng lint` for eslint report
+* Run `ng test` for Test report
+* Run `ng build` the output is in `dist/`
 
 ## Startup
 You will need to compile and run `novel-ideas` rest backend.

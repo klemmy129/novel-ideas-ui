@@ -4,7 +4,6 @@ import { HttpClient } from "@angular/common/http";
 import { HttpClientTestingModule, HttpTestingController } from "@angular/common/http/testing";
 import { AppConfig } from "../../app.config";
 import { BookDto } from "novel-ideas-api";
-import * as moment from 'moment';
 
 describe('BookService', () => {
   let service: BookService;
@@ -30,7 +29,6 @@ describe('BookService', () => {
   });
 
   it('can test HttpClient.getBook1', () => {
-    let d = moment().format('YYYY-MM-DDThh:mm:ss');
     const testData: BookDto = {
       id: 1,
       name: 'aaa',
