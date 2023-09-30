@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
@@ -6,12 +6,9 @@ import { ActivatedRoute, Router } from "@angular/router";
   templateUrl: './site-setup.component.html',
   styleUrls: ['./site-setup.component.scss']
 })
-export class SiteSetupComponent implements OnInit {
+export class SiteSetupComponent {
 
   constructor(private route: ActivatedRoute, private router: Router) { }
-
-  ngOnInit(): void {
-  }
 
   viewSetup() {
     let route = '/setup/';

@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 //@import "bulma/css/bulma.css";
-@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import '../node_modules/bulma/bulma.sass';
+@import 'bulma-scss/bulma.scss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 //.default {
 //  @import "bulmaswatch/default/bulmaswatch.scss";
@@ -9,15 +11,19 @@
 .darkly {
   @import "bulmaswatch/darkly/bulmaswatch.scss";
 }
+
 .cerulean {
   @import "bulmaswatch/cerulean/bulmaswatch.scss";
 }
+
 .flatly {
   @import "bulmaswatch/flatly/bulmaswatch.scss";
 }
+
 .slate {
   @import "bulmaswatch/slate/bulmaswatch.scss";
 }
+
 .solar {
   @import "bulmaswatch/solar/bulmaswatch.scss";
 }
@@ -27,6 +33,7 @@
   min-height: 100vh;
   flex-direction: column;
 }
+
 
 .section {
   flex: 1;
